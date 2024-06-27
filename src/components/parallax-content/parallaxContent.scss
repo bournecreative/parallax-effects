@@ -1,0 +1,44 @@
+.parallax-container {
+    position: relative;
+    height: 150vh;
+
+    .parallax-copy {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        color: #FFF;
+        height: 100dvh;
+        left: 0;
+        top: 0;
+    }
+    
+    .parallax-heading {
+        font-size: 2rem;
+        line-height: 1;
+        margin-bottom: 20px;
+    }
+
+    .parallax-subheading {
+        font-size: 3.4rem;
+        line-height: 1;
+    }
+}
+
+.parallax-image {
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 0;
+}
+
+.parallax-image-overlay {
+    background-color: rgb(0, 0, 0, 0.7);
+    inset: 0;
+    position: absolute;
+}
